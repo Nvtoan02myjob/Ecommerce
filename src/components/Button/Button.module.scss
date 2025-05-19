@@ -1,0 +1,17 @@
+@use '@styles/_mixin.module.scss' as *;
+@use '@styles/_variable.module.scss' as *;
+.btn {
+  background-color: $color_black_opacity;
+  color: $text_white;
+  padding: 13px 45px;
+  border: 1px solid $color_black_opacity;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: transparent;
+  color: $color_black_opacity_2;
+  border: 1px solid $color_black_opacity;
+}

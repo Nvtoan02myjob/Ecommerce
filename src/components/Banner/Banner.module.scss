@@ -1,0 +1,28 @@
+@use '@styles/_variable.module.scss' as *;
+.banner {
+  background-image: url(../../assets/images/02-SLIDESHOW-1.jpeg);
+  min-height: 750px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  position: relative;
+}
+
+.nav_margin_reset {
+  margin: 0;
+}
+
+.banner_title {
+  font-size: 42px;
+  font-weight: 400;
+  color: $color_black_opacity_2;
+}
+
+.banner_text {
+  color: $color_black_opacity_2;
+  opacity: 0.8;
+  margin-bottom: 30px;
+}

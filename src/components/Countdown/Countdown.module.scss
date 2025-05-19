@@ -1,0 +1,21 @@
+@use '@styles/_variable.module.scss' as *;
+@use '@styles/_mixin.module.scss' as *;
+.container {
+  height: 51px;
+  margin-top: 134px;
+}
+.item {
+  width: 100px;
+  height: 41px;
+  background-color: $color_white;
+  @include radius(2px);
+}
+
+.item_time {
+  font-size: 18px;
+  color: $color_black_opacity_2;
+}
+.item_lable_time {
+  font-size: 18px;
+  color: #888888;
+}

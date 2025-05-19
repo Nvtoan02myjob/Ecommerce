@@ -1,0 +1,28 @@
+@use '@styles/_mixin.module.scss' as *;
+@use '@styles/_variable.module.scss' as *;
+.container {
+  margin: 65px auto 15px;
+  max-width: 1260px;
+  height: 68px;
+  padding: 15px;
+}
+.heading_line {
+  height: 2px;
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+  // @include widthContainer($percent);
+  margin-top: 14px;
+}
+.content_line {
+  width: 306px;
+  height: 39px;
+}
+.content_line_title {
+  color: $color_black_opacity_2;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.content_line_title2 {
+  font-size: 24px;
+  color: $color_black_opacity;
+}

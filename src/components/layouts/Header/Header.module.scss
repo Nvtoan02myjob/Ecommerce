@@ -1,0 +1,48 @@
+@use '@styles/_mixin.module.scss' as *;
+@use '@styles/_variable.module.scss' as *;
+.boxIcon {
+  width: 26px;
+  height: 26px;
+  @include radius(50%);
+  @include flex_center_align(flex, center, 0px);
+  background-color: $color_black_opacity;
+}
+.nav_height {
+  height: 83px;
+}
+.nav_flex {
+  display: flex;
+}
+.nav_width70 {
+  width: 70%;
+}
+.nav_width30 {
+  width: 30%;
+}
+.grid_header {
+  width: 1250px;
+}
+.nav_font_size {
+  font-size: 15px;
+}
+.nav_text {
+  color: $color_black_opacity;
+}
+.menu_bellow::after {
+  display: block;
+  content: '';
+  background-color: $color_black_opacity;
+  height: 3px;
+  transform-origin: right;
+  transition: transform 0.3s ease;
+  transform: scale(0);
+}
+.menu_bellow:hover::after {
+  transform: scale(1);
+}
+.adsolude_hd {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}

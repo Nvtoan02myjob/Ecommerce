@@ -1,0 +1,25 @@
+@mixin radius($radius: 10px) {
+  border-radius: $radius;
+}
+
+@mixin flex_center_align($flex, $justify_center, $gap) {
+  display: $flex;
+  justify-content: $justify_center;
+  gap: $gap;
+  align-items: center;
+}
+@mixin flex_center($flex, $justify_center) {
+  display: $flex;
+  justify-content: $justify_center;
+  align-items: center;
+}
+@mixin btn($w, $h, $bg, $radius) {
+  width: $w;
+  height: $h;
+  background-color: $bg;
+  @include radius($radius);
+}
+
+@mixin widthContainer($percent) {
+  width: $percent;
+}
