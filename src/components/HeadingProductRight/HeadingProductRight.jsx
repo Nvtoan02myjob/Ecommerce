@@ -10,7 +10,7 @@ function HeadingProductRight() {
       <h2 className={`${title} flex justify-center`}>
         The classics make a comeback
       </h2>
-      <Button content={'Buy now'} />
+      <Button content={'Buy now'}  status={true}/>
     </div>
   );
 }

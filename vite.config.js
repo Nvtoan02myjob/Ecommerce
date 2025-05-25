@@ -4,15 +4,15 @@ import path from 'path';
 import tailwindcss from '@tailwindcss/vite';
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), tailwindcss()],
-  resolve: {
-    alias: {
-      '@': path.resolve(__dirname, 'src'),
-      '@components': path.resolve(__dirname, 'src/components'),
-      '@layouts': path.resolve(__dirname, 'src/components/layouts'),
-      '@assets': path.resolve(__dirname, 'src/assets'),
-      '@styles': path.resolve(__dirname, 'src/assets/styles'),
-      '@icons': path.resolve(__dirname, 'src/assets/icons'),
+    plugins: [react(), tailwindcss()],
+    resolve: {
+        alias: {
+            '@': path.resolve(__dirname, 'src'),
+            '@components': path.resolve(__dirname, 'src/components'),
+            '@layouts': path.resolve(__dirname, 'src/components/layouts'),
+            '@assets': path.resolve(__dirname, 'src/assets'),
+            '@styles': path.resolve(__dirname, 'src/assets/styles'),
+            '@icons': path.resolve(__dirname, 'src/assets/icons'),
+        },
     },
-  },
 });

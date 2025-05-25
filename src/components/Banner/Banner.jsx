@@ -20,7 +20,7 @@ function Banner() {
         <div className={`${banner_text}`}>
           Make yours celebrations even more special this years with beautiful.
         </div>
-        <Button content={'Go to shop'} />
+        <Button content={'Go to shop'}  status={true}/>
       </div>
     </div>
   );
